@@ -1,3 +1,4 @@
+# makeÊä³ö
 gcc -g -fms-extensions -I/root/coreboot/util/kconfig -Ibuild/util/kconfig -DCURSES_LOC="<ncurses.h>" -DLOCALE  -c -o build/util/kconfig/conf.o /root/coreboot/util/kconfig/conf.c
 cp /root/coreboot/util/kconfig/zconf.tab.c_shipped build/util/kconfig/zconf.tab.c
 cp /root/coreboot/util/kconfig/zconf.lex.c_shipped build/util/kconfig/zconf.lex.c
